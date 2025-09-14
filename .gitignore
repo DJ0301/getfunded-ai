@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build outputs (frontend/backend)
+dist/
+dist-ssr/
+build/
+.out/
+.next/
+.cache/
+
+# Vite / Tooling caches
+.vite/
+.eslintcache
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment variables (global + per-package)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Local configs
+*.local
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional: keys and secrets (avoid committing service accounts)
+service-account.json
+
+# Local data backups
+backend/data/*.backup.*
+backend/data/*.bak

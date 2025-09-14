@@ -1,0 +1,199 @@
+.outreach-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.outreach-card {
+  background: white;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.tone-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tone-selector label {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.tone-selector .form-select {
+  width: 150px;
+}
+
+.investor-selection {
+  margin: 32px 0;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 16px;
+}
+
+.investor-selection h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.investor-list {
+  display: grid;
+  gap: 12px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 12px;
+  background: white;
+  border-radius: 12px;
+}
+
+.investor-item {
+  padding: 12px;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.investor-item:hover {
+  border-color: #667eea;
+}
+
+.investor-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.investor-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.investor-info {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sent-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background: #d1fae5;
+  color: #065f46;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.action-section {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.email-drafts {
+  margin-top: 32px;
+}
+
+.email-drafts h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.email-draft-card {
+  margin-bottom: 20px;
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 16px;
+  border: 2px solid #e5e7eb;
+}
+
+.draft-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.draft-header h4 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.draft-email,
+.draft-subject {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 2px 0;
+}
+
+.draft-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.draft-content {
+  padding: 16px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.draft-content pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+.draft-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sent-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 12px;
+  background: #d1fae5;
+  color: #065f46;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.send-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+  padding: 32px;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%);
+  border-radius: 16px;
+}
+
+.btn-large {
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+.send-note {
+  color: #6b7280;
+  font-size: 14px;
+}

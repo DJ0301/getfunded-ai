@@ -1,0 +1,286 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 12px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.startup-info-card {
+  background: white;
+  border-radius: 24px;
+  padding: 32px;
+  margin-bottom: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.startup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.startup-header h2 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+.stage-badge {
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.stage-badge.stage-pre-seed {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.stage-badge.stage-seed {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.stage-badge.stage-series-a {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.startup-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.startup-metrics {
+  display: flex;
+  gap: 32px;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.metric-label {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.metric-value {
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+}
+
+.progress-section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.steps-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.step-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.step-card:hover {
+  transform: translateX(8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.step-card.completed {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%);
+  border: 2px solid #667eea;
+}
+
+.step-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+  position: relative;
+}
+
+.step-card.completed .step-icon {
+  background: #10b981;
+}
+
+.check-icon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: white;
+  border-radius: 50%;
+  color: #10b981;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.step-content p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.step-arrow {
+  color: #9ca3af;
+}
+
+.quick-actions {
+  margin-bottom: 40px;
+}
+
+.actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.action-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-card:hover {
+  border-color: #667eea;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.stats-overview {
+  margin-bottom: 40px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 60px 40px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.cta-section h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.cta-section p {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 32px;
+}
+
+.btn-large {
+  padding: 16px 32px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-title {
+    font-size: 32px;
+  }
+  
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .startup-metrics {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
